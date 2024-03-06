@@ -1,0 +1,63 @@
+{
+  // EDITOR
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 18,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 1.6,
+  "editor.glyphMargin": false, // Hide left margin
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.minimap.enabled": false, // Hide minimap
+  "editor.bracketPairColorization.enabled": false,
+  "editor.guides.indentation": false, // Hide indentation guides
+  "editor.matchBrackets": "never",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on", // Smooth cursor movement
+  "editor.formatOnSave": true,
+
+  // TERMINAL
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.lineHeight": 1.6,
+
+  // WORKBENCH AND WINDOW
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "breadcrumbs.enabled": false,
+  "symbols.hidesExplorerArrows": false,
+
+  // THEMES
+  "workbench.colorTheme": "Material Theme Ocean",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "workbench.colorCustomizations": {
+    "[Nord Deep]": {
+      "editorGroup.border": "#7DCEFF"
+    }
+  },
+  "oneDarkPro.bold": true,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+
+  // FORMATTER
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.printWidth": 150,
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // OTHERS
+  "indenticator.width": 1,
+  "security.workspace.trust.untrustedFiles": "open",
+  "telemetry.telemetryLevel": "off",
+  "explorer.confirmDelete": false
+}
